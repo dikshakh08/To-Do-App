@@ -224,3 +224,34 @@ h1{
     padding: 4px;
 }
 
+@media ( max-width: 600px) {
+    .container{
+        margin: 0 20px;
+        padding: 0 10px;
+    }
+
+    .todo{
+        padding: 1.5rem;
+    }
+    #numbers{
+        width: 60px;
+        height: 60px;
+    }
+    
+    
+
+    .input-area input{
+        font-size: 1rem;
+    }
+    #task-list li{
+        font-size: 1rem;
+    }
+    #input-task-btn{
+        border-radius: 50%; 
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+}
+
